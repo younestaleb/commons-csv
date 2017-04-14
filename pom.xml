@@ -178,6 +178,7 @@ CSV files of various types.
           <excludes>
             <exclude>**/perf/PerformanceTest.java</exclude>
           </excludes>
+          <skipTests>true</skipTests>  
         </configuration>
       </plugin>
       <!-- Allow checkstyle to be run interactively; keep in sync with report config below -->
